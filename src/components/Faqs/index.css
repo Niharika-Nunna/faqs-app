@@ -1,0 +1,29 @@
+/* Write your code here. */
+.bg-container {
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.card-container {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 46px;
+  color: #cb8805;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .card-container {
+    padding: 5px;
+  }
+  .bg-container {
+    padding: 10px;
+  }
+}
